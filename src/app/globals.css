@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  /* break-point */
+  --breakpoint-fold: 884px;
+  --breakpoint-xs: 390px;
+
+  --font-sans: var(--font-open-sans);
+  --font-oleo: var(--font-oleo);
+  --font-onest: var(--font-onest);
+  --font-inter: var(--font-inter);
+  --font-poppins: var(--font-poppins);
+
+  /* COLORS */
+  --color-white: #fbfbfb;
+  --color-background: #f5f8fa;
+  --color-header: #1f2937;
+  --color-text-base: #03112b;
+  --color-button-color: #3b82f6;
+  --color-grey-30: #b4b4b4;
+  --color-grey-50: #828282;
+  --color-grey-60: #585858;
+  --color-grey-80: #353535;
+  --color-grey-90: #232323;
+  --color-text: #2e2e2e;
+  --color-ribbon: #3b82f60a;
+  --color-project1: #e1e1e16b;
+  --color-project2: #c8e6ca52;
+  --color-project3: #e7a88552;
+  --color-project4: #e1e1e16b;
+  --color-person1: #3b82f60f;
+  --color-person2: #edf7ee52;
+  --color-person4: #e1e1e13d;
+  --color-person5: #f8d7ce3d;
+
+  /* ANimation */
+  --animate-scroll-slow: scroll 10s linear infinite;
+}
+/* SLIDER ANIMATION */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* HIDE SCROLL */
+::-webkit-scrollbar {
+  display: none;
+}
