@@ -79,7 +79,7 @@ export const Testimonials = () => {
       <Carousel
         setApi={setApi}
         plugins={[Autoplay({ delay: 10000 })]}
-        className="sm:w-[80%] w-[40%]  xs:w-[65%]"
+        className="sm:w-[80%] w-[42%] xs:w-[47%]"
       >
         <CarouselContent>
           {testimonial.map((test, id) => (

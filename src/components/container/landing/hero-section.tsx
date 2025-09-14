@@ -11,7 +11,7 @@ export const Hero_Section = () => {
   return (
     <section className="flex py-10 sm:py-24.5 flex-col gap-12.5 ">
       <div className="md:px-24.5 px-5 text-text flex flex-col items-start text-left justify-start sm:gap-6 gap-4">
-        <span className="flex items-center  w-full  sm:gap-6.5 font-onest gap-4 font-normal text-sm  sm:text-2xl text-text">
+        <span className="flex items-center  w-full  sm:gap-6.5 font-onest gap-4 font-normal text-sm  sm:text-2xl text-text whitespace-nowrap">
           <span>Data Analyst</span>
           <GoDotFill className="text-button-color size-sm" />
           <span>Business Intelligence Strategist</span>
