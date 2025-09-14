@@ -13,7 +13,7 @@ const About_Hero = () => {
         loading="lazy"
         className="object-contain"
       />
-      <Emmanuel className="items-center  *:text-center [&_article]:sm:text-2xl [&_article]:text-base [&_article]:sm:font-medium  [&_article]:font-normal [&_span]:sm:max-w-[969px] w-full [&_h2]:sm:text-[64px] [&_h2]:text-[26px]" />
+      <Emmanuel className="items-center  *:text-center [&_article]:sm:text-2xl [&_article]:text-base [&_article]:sm:font-medium  [&_article]:font-normal [&_span]:sm:max-w-[969px] w-full [&_h2]:sm:text-[64px] [&_h2]:text-[26px] sm:*:w-auto *:w-full" />
     </section>
   );
 };

@@ -5,7 +5,7 @@ import React from "react";
 
 export const Emmanuel = ({ className }: { className?: string }) => {
   return (
-    <div className={clsx("flex flex-col gap-6 text-left", className)}>
+    <div className={clsx("flex flex-col gap-8 sm: text-left", className)}>
       <span className="flex flex-col gap-4 sm:gap-6">
         {" "}
         <h2 className="sm:text-[40px] text-[26px] font-semibold font-sans">
@@ -19,7 +19,7 @@ export const Emmanuel = ({ className }: { className?: string }) => {
         </article>
       </span>
 
-      <div className="flex items-center sm:flex-row flex-col gap-6 sm:gap-8  w-full">
+      <div className="flex items-center sm:flex-row flex-col gap-6 sm:gap-8 ">
         <Filled_Btn
           className="w-full"
           href="mailto:emmanuelewa45@gmail.com"
