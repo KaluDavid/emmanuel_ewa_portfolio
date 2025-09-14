@@ -21,14 +21,13 @@ It serves as both a professional portfolio and a platform for personal branding.
 
 ## 🌐 Live Preview
 
-👉 [Live Website Link](https://your-live-site-url.com)  
-*(Replace with actual deployed link)*
+ [Live Website Link](https://ugobo-emmanuel.vercel.app/)
 
 ---
 
 ## 📸 Screenshots
 
-### 🌐 Desktop View
+### Desktop View
 - **Landing Page**
   <img width="1088" height="656" alt="Screenshot from 2025-09-14 04-52-47" src="https://github.com/user-attachments/assets/980782b7-7f8a-4ff4-8457-4a1bbf582fbf" />
 
@@ -42,7 +41,7 @@ It serves as both a professional portfolio and a platform for personal branding.
 
 ---
 
-### 📱 Mobile & Tablet View
+### Mobile & Tablet View
 - **Mobile Landing**  
 
 <img width="428" height="652" alt="Screenshot from 2025-09-14 04-51-42" src="https://github.com/user-attachments/assets/eaa70d2a-f626-4c37-9d4a-e73ccbcfc12e" />
