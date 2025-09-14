@@ -8,6 +8,7 @@ import Footer from "@/components/container/footer";
 export const metadata: Metadata = {
   title: "Ugobo Emmanuel",
   description: "Portfolio website of Ugobo Emmanuel",
+  icons: "/Logo.svg",
 };
 
 export default function RootLayout({
