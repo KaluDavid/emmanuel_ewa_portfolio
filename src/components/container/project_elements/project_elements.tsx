@@ -46,7 +46,7 @@ export const Go_Back = () => {
   return (
     <button
       onClick={() => router.back()}
-      className="flex w-[80px] cursor-pointer text-base  items-center gap-4 "
+      className="flex w-[80px] opacity-70 cursor-pointer text-base  items-center gap-4 "
     >
       <BsArrowLeftCircle className="font-extralight text-3xl text-grey-50" />
       <span>Back</span>

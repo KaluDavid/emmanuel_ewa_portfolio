@@ -237,7 +237,7 @@ export const project: Project[] = [
   },
   {
     id: "4",
-    img: "/project4.png",
+    img: null,
     title: "Data Accuracy Audit",
     color: "bg-project4",
     description:

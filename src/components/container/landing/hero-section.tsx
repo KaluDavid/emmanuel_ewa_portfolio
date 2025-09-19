@@ -4,13 +4,18 @@ import { GoDotFill } from "react-icons/go";
 import { Btn } from "../../ui/buttons/btn";
 import Image from "next/image";
 
+const carousel = [
+  { num: "5+", text: "Years of Experience" },
+  { num: "10+", text: "Projects Completed" },
+  { num: "$5m+", text: "Value Generated" },
+];
 export const Hero_Section = () => {
   const countColors =
     "font-bold text-2xl sm:text-[40px] font-sans sm:leading-14";
   const expColor = "sm:text-xl text-xs font-normal font-onest";
   return (
     <section className="flex py-10 sm:py-24.5 flex-col gap-12.5 ">
-      <div className="md:px-24.5 px-5 text-text flex flex-col items-start text-left justify-start sm:gap-6 gap-4">
+      <div className="lg:px-24.5 px-5 text-text flex flex-col items-start text-left justify-start sm:gap-6 gap-4">
         <span className="flex items-center  w-full  sm:gap-6.5 font-onest gap-4 font-normal text-sm  sm:text-2xl text-text whitespace-nowrap">
           <span>Data Analyst</span>
           <GoDotFill className="text-button-color size-sm" />
@@ -29,20 +34,20 @@ export const Hero_Section = () => {
           <Image src={"/mail.svg"} alt="gmail logo" width={20} height={20} />
         </Btn>
       </div>
-      <div className="flex w-full  bg-person1 items-center justify-center">
-        <div className="flex items-start px-5 md:px-[149px] justify-between w-full py-8 *:flex *:flex-col *:gap-3 *:items-center text-button-color">
-          <span>
-            <span className={clsx(countColors)}>5+</span>
-            <span className={clsx(expColor)}>Years Experience</span>
-          </span>{" "}
-          <span>
-            <span className={clsx(countColors)}>10+</span>
-            <span className={clsx(expColor)}>Projects Completed </span>
-          </span>{" "}
-          <span>
-            <span className={clsx(countColors)}>$5M+</span>
-            <span className={clsx(expColor)}>Value Generated</span>
-          </span>
+
+      <div className="flex w-full  bg-person1 items-end justify-end overflow-hidden">
+        <div className="flex items-end -mr-[65rem] justify-end w-full sm:py-11 py-8 text-button-color whitespace-nowrap gap-20 lg:gap-60 lg:animate-scroll-slow animate-scroll-slower">
+          {carousel.map((arr, index) => (
+            <span
+              key={`1-${index}`}
+              className="flex items-center  gap-6.5 font-san font-bold sm:text-3xl"
+            >
+              <span className="flex flex-col items-center text-button-color">
+                <span className={clsx(countColors)}>{arr.num}</span>
+                <span className={clsx(expColor)}>{arr.text}</span>
+              </span>
+            </span>
+          ))}
         </div>
       </div>
     </section>

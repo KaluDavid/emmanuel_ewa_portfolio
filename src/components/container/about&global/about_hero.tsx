@@ -4,7 +4,7 @@ import { Emmanuel } from "../landing/emmanuel";
 
 const About_Hero = () => {
   return (
-    <section className="flex flex-col items-center px-5 md:px-24.5 py-10 sm:py-[100px] gap-9 sm:gap-[72px]">
+    <section className="flex flex-col items-center px-5 lg:px-24.5 py-10 sm:py-[100px] gap-9 sm:gap-[72px]">
       <Image
         src="/about_Profile.png"
         width={500}

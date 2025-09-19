@@ -35,7 +35,7 @@ export type TakeAways = {
 
 export type Project = {
   id: string;
-  img: string;
+  img: string | null;
   slug: string;
   color: string;
   title: string;

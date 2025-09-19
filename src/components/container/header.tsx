@@ -17,7 +17,7 @@ const Header = () => {
   };
   return (
     <>
-      <header className="sm:py-4 flex fixed bg-white w-full  items-center px-5 py-4 md:px-24.5 border-b-[0.5px] border-grey-30 z-50 text-header justify-between ">
+      <header className="sm:py-4 flex fixed bg-white w-full  items-center px-5 py-4 lg:px-24.5 border-b-[0.5px] border-grey-30 z-50 text-header justify-between ">
         <Link href="/">
           <h1 className="flex gap-2 items-center">
             <Image

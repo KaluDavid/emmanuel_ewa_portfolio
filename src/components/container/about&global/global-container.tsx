@@ -13,7 +13,7 @@ export const Global_Container = ({
   return (
     <section
       className={clsx(
-        "flex text-header items-start px-5 py-10 md:px-24.5 sm:py-[100px] md:flex-row flex-col max-sm:gap-25 justify-between w-full",
+        "flex text-header items-start px-5 py-10 lg:px-24.5 sm:py-[100px] md:flex-row flex-col max-sm:gap-25 justify-between w-full",
         className
       )}
     >
@@ -22,7 +22,7 @@ export const Global_Container = ({
           {head}
         </h1>
 
-        <span className="*:h-0.5 flex-col *:bg-button-color  flex gap-2 absolute sm:-bottom-10 -bottom-7 sm:left-10 left-32">
+        <span className="*:h-0.5 flex-col *:bg-button-color  flex gap-2 absolute sm:-bottom-10 -bottom-5 sm:left-10 left-32">
           <span className="-rotate-[12.42deg] -ml-2 w-[150px] sm:w-[280px]"></span>
           <span className="-rotate-[22.56deg] max-sm:-mt-2 w-[140px] sm:w-[250px]"></span>
         </span>

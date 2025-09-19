@@ -18,26 +18,28 @@ export default function ProjectPage({ params }: Props) {
   if (!projects) return notFound();
 
   return (
-    <section className="flex flex-col gap-10 sm:gap-18 pb-10 sm:pb-25 sm:pt-20 pt-10">
-      <div className="flex flex-col gap-10 sm:gap-18 px-5 md:px-24.5">
+    <section className="flex flex-col gap-10 sm:gap-18 pb-10 sm:pb-25 sm:pt-20 pt-5">
+      <div className="flex flex-col gap-10 sm:gap-18 px-5 lg:px-24.5">
         <h2 className=" flex flex-col gap-4 font-sans font-bold text-[26px] sm:text-5xl">
           <Go_Back />
           {projects.title}
         </h2>
-        <fieldset
-          className={clsx(
-            "w-full sm:rounded-[20px] rounded-[6px] px-4.5 py-6 md:px-[54px] sm:py-[76px]",
-            projects.color
-          )}
-        >
-          <Image
-            src={projects.img}
-            alt="Projects"
-            width={972}
-            height={625}
-            className="w-full    object-contain"
-          />
-        </fieldset>
+        {projects.img && (
+          <fieldset
+            className={clsx(
+              "w-full sm:rounded-[20px] rounded-[6px] px-4.5 py-6 md:px-[54px] sm:py-[76px]",
+              projects.color
+            )}
+          >
+            <Image
+              src={projects.img}
+              alt="Projects"
+              width={972}
+              height={625}
+              className="w-full    object-contain"
+            />
+          </fieldset>
+        )}
 
         <div className="flex w-full md:flex-row flex-col gap-10 whitespace-nowrap sm:gap-70 justify-between">
           <div className="flex w-full justify-between sm:gap-0 ">
@@ -49,7 +51,7 @@ export default function ProjectPage({ params }: Props) {
       </div>
 
       {/* PROBLEM OVERIEW */}
-      <section className="sm:pt-20 pt-10 pb-10 px-5 md:px-25 flex flex-col border-y border-y-grey-30 gap-12 [&_p]:font-semibold">
+      <section className="sm:pt-20 pt-10 pb-10 px-5 lg:px-25 flex flex-col border-y border-y-grey-30 gap-12 [&_p]:font-semibold">
         <PrdHead head="Problem Overview" text={projects.project_overview} />
 
         <div className="flex flex-col gap-6 text-lg">
@@ -93,7 +95,7 @@ export default function ProjectPage({ params }: Props) {
         </div>
       </section>
 
-      <section className=" md:px-25 px-5  w-full flex flex-col gap-6.5 sm:gap-12">
+      <section className=" lg:px-25 px-5  w-full flex flex-col gap-6.5 sm:gap-12">
         <h2 className="font-sans font-bold sm:text-[32px] sm:leading-11.5 text-[26px]">
           Results & Impact
         </h2>

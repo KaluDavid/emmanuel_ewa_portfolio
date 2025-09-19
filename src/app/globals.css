@@ -34,15 +34,35 @@
   --color-person5: #f8d7ce3d;
 
   /* ANimation */
-  --animate-scroll-slow: scroll 10s linear infinite;
+  --animate-scroll-slow: scroll 20s linear infinite;
+  --animate-scroll-slower: scroller 10s linear infinite;
+  --animate-scrolling: scrolls 10s linear infinite;
 }
 /* SLIDER ANIMATION */
-@keyframes scroll {
+@keyframes scrolls {
   0% {
-    transform: translateX(0);
+    transform: translateX(100);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-170%);
+  }
+}
+
+@keyframes scroller {
+  0% {
+    transform: translateX(100);
+  }
+  100% {
+    transform: translateX(-345%);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100);
+  }
+  100% {
+    transform: translateX(-175%);
   }
 }
 
