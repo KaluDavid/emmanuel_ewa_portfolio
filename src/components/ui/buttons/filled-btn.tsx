@@ -21,7 +21,7 @@ export const Filled_Btn = ({
     >
       <Button
         className={clsx(
-          "group rounded-[10px] relative inline-flex cursor-pointer items-center justify-center overflow-hidden bg-gradient-to-tr from-blue-700 to-blue-400 px-7 h-[48px] font-onest text-white shadow-sm hover:text-button-color hover:border hover:border-button-color",
+          "group rounded-[6px] relative inline-flex cursor-pointer items-center justify-center overflow-hidden bg-gradient-to-tr from-blue-700 to-blue-400 px-7 h-[48px] font-onest text-white shadow-sm hover:text-button-color hover:border hover:border-button-color",
           className
         )}
       >

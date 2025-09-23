@@ -23,7 +23,7 @@ export const Btn = ({
     >
       <Button
         className={clsx(
-          "group w-full relative inline-flex items-center justify-center overflow-hidden rounded-[10px]  h-[48px] cursor-pointer border border-button- color bg-white px-7 font-onest text-button-color hover:text-white hover:bg-button-color",
+          "group w-full relative inline-flex items-center justify-center overflow-hidden rounded-[6px]  h-[48px] cursor-pointer border border-button- color bg-white px-7 font-onest text-button-color hover:text-white hover:bg-button-color",
           className
         )}
       >

@@ -36,7 +36,7 @@ export default function ProjectPage({ params }: Props) {
               alt="Projects"
               width={972}
               height={625}
-              className="w-full    object-contain"
+              className="w-full border-[3px] border-[#696969] rounded-[10px] object-contain"
             />
           </fieldset>
         )}
