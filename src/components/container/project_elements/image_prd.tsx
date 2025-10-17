@@ -1,9 +1,10 @@
+import { Project } from "@/lib/types";
 import clsx from "clsx";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
-export const Image_Prd = ({ prd }: { prd: any }) => {
+export const Image_Prd = ({ prd }: { prd: Project }) => {
   return (
     <Link href={`/projects/${prd.id}`} className="w-full block">
       <fieldset
@@ -24,7 +25,7 @@ export const Image_Prd = ({ prd }: { prd: any }) => {
         >
           <div>
             <Image
-              src={prd.img}
+              src={`${prd.img}`}
               alt="Projects"
               width={972}
               height={625}

@@ -1,7 +1,8 @@
+import { Project } from "@/lib/types";
 import Link from "next/link";
 import React from "react";
 
-export const Prd_Content = ({ prd }: { prd: any }) => {
+export const Prd_Content = ({ prd }: { prd: Project }) => {
   return (
     <div className="flex md:flex-row flex-col md:px-5 items-start text-button-color justify-between w-full gap-3 sm:gap-8 text-left">
       <div className="flex flex-col gap-6">
